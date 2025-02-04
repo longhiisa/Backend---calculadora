@@ -35,16 +35,25 @@ function seno(a){
     return Math.sin(a);
 }
 
-cos
-tan
+function coseno(a){
+    return Math.cos(a);
+}
+
+function tangente(a){
+    return Math.tan(a);
+}
 
 
 while (true) {
     let escolha = prompt("Escolha a operação: 1. Soma, 2. Subtração, 3. Multiplicação, 4. divisão, 5. exponenciacao, 6. Raiz, 7.Seno, 8. Cosseno, 9. Tangente, 10. Sair");
 
-    if (escolha === "6") {
+    if (escolha === "10") {
         break;
+    } else if(escolha === "5" || escolha === "6" || escolha === "7" || escolha === "8" || escolha === "9"){
+    let num = parseFloat(prompt("Digite o número: "));
+    
     }
+
 
     let num1 = parseFloat(prompt("Digite o primeiro número: "));
     let num2 = parseFloat(prompt("Digite o segundo número: "));
