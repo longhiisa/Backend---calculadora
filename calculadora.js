@@ -51,14 +51,13 @@ while (true) {
         break;
     } else if(escolha === "5" || escolha === "6" || escolha === "7" || escolha === "8" || escolha === "9"){
     let num = parseFloat(prompt("Digite o número: "));
-    
     }
 
 
     let num1 = parseFloat(prompt("Digite o primeiro número: "));
     let num2 = parseFloat(prompt("Digite o segundo número: "));
 
-    if (escolha === "1") {
+    else if(escolha === "1") {
         console.log("Resultado: ", soma(num1, num2));
     } else if (escolha === "2") {
         console.log("Resultado: ", subtracao(num1, num2));
